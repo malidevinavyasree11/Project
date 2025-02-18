@@ -1,0 +1,32 @@
+.upload-excel-page {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial;
+}
+.upload-button {
+    background-color:#0070AD;
+    color: white;            
+    padding: 10px 20px;    
+    font-size: 16px;   
+    border: none;         
+    border-radius: 5px;    
+    cursor: pointer; 
+}
+.upload-button:hover {
+    background-color:#0070AD;
+}
+.upload-button:disabled {
+    background-color: #d3d3d3;
+    cursor: not-allowed;
+}  
+.success {
+    color: #4CAF50;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.error {
+    color: red;
+    font-size: 16px;
+    margin-top: 20px;
+}

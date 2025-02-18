@@ -71,7 +71,6 @@ const App = () => {
       6:"",
       Category:"Profiles With Client",
       Tent_joining_Month:"Feb25",
-
     },
     { 
        Owner:"Deepak",

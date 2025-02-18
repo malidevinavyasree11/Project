@@ -39,7 +39,7 @@ const UploadExcelPage = () => {
     })
       .then((response) => response.json())
       .then((data) => {
-        if (data.success) {
+        if (data.message) {
           console.log("Upload success:", data);
           setUploadSuccess(true);
         } else {

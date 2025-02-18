@@ -1,0 +1,45 @@
+:root {
+  --text-color:light blue;
+  --side-nav-background: black;
+}
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.pagination-controls button {
+  background-color: #0070AD;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 0 10px;
+  position: sticky;
+}
+.pagination-controls button:hover {
+  background-color: #005f8f;
+}
+.pagination-controls span {
+  font-size: 14px;
+}
+.actions {
+  display: flex;
+  gap: 10px;
+}
+.actions .edit-button,
+.actions .view-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+.actions .edit-button {
+  color:#0070AD;
+}
+.actions .view-button {
+  color:--text-color
+}
+
